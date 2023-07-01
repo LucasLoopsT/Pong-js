@@ -125,8 +125,10 @@ iframe{
 }
 
 p{
+  position: absolute;
+  left: 40%;
+  top: 40%;
   color: white;
   line-height: 2rem;
   text-align: center;
-
 }
