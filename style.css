@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+canvas {
+  display: block;
+  margin-top: 2.5rem;
+  z-index: 1;
+}
+
+body{
+  background-color: #332d37;
+  font-family: 'Press Start 2P', cursive;
+}
+
+header{
+  background-color: #0d0d0d;
+  height: 10vh;
+  width: 100%;
+  margin-bottom: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+  position: absolute;
+  right: 40%;
+}
+
+h1 span{
+  color: rgb(255, 218, 7);
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-right: 5rem;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  gap: 1.5rem;
+
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+#game-container{
+  background-color: #1a1a1a;
+  border: #0d0d0d 2px solid;
+  border-radius: 1rem;
+  width: 100rem;
+  height: 45rem;
+
+  position: absolute;
+}
+
+#botoes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15rem;
+  height: 100%;
+  padding: 0 5.5rem;
+}
+
+.conjunto{
+  display: flex;
+  justify-content: space-between;
+}
+
+.letter{
+  filter: invert(1);
+  width: 5rem;
+  object-fit: contain;
+  border: rgb(17 222 221) 2px solid;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.seta {
+  filter: invert(1);
+  width: 5rem;
+  object-fit: contain;
+  border: rgb(222 188 17) 2px solid;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+#seta-cima{
+  rotate: -90deg;
+}
+
+#seta-baixo{
+  rotate: 90deg;
+}
+a{
+  transition: all 0.5s ease;
+}
+a:hover{
+  color: white;
+}
+
+iframe{
+  width: 64rem;
+  height: 44rem;
+  position: absolute;
+  left: 18rem;
+}
+
+p{
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+
+}
