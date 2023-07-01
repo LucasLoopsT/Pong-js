@@ -1,4 +1,4 @@
-<h1 align="center">PONG</h1>
+<h1 align="center">Pong - Game</h1>
 
 <p align="center"> <img src="imgs/preview.jpeg" width="100%"> </p>
 
